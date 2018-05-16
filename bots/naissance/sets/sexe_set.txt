@@ -1,0 +1,11 @@
+C'est une fille 
+C'est un garçon 
+Quel est son sexe
+C'est une fille ou un garçon
+C'est un garçon ou une fille
+c est un garçon 
+c est un garcon
+c est un garcon ou une fille
+c est une fille ou un garcon
+
+

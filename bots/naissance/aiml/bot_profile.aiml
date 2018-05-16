@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version ="1.0.1">
+
+
+<category>
+	<pattern>bonjour</pattern>
+	<template>Bonjour ! Olala, vous l'avez vu ? Vous l'avez vu ?</template>
+</category>
+
+<category>
+	<pattern><SET>HELLO_SET</SET></pattern>
+	<template><srai>bonjour</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>vraiment</pattern>
+	<template>Oui !</template>
+</category>
+
+<category>
+	<pattern><SET>VRAIMENT_SET</SET></pattern>
+	<template><srai>vraiment</srai> </template>
+</category>
+
+
+
+
+
+<category>
+	<pattern>aurevoir</pattern>
+	<template>Aurevoir ! Merci d'être passé !</template>
+</category>
+
+<category>
+	<pattern><SET>AUREVOIR_SET</SET></pattern>
+	<template><srai>aurevoir</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>^ famille ^</pattern>
+	<template> Toute notre famille est là, nous sommes très heureux !</template>
+</category>
+
+
+
+<category>
+	<pattern>^ content ^</pattern>
+	<template>Nous sommes tous très heureux !</template>
+</category>
+
+<category>
+	<pattern>^ heureux ^</pattern>
+	<template><srai>content</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>cava</pattern>
+	<template> Très bien, je suis tellement content ! Et vous </template>
+</category>
+
+<category>
+	<pattern><SET>CAVA_SET</SET></pattern>
+	<template><srai>cava</srai> </template>
+</category>
+
+<category>
+	<pattern> _</pattern>
+	<that> Et vous </that>
+	<template>Super !</template>
+</category>
+
+
+
+<category>
+	<pattern>Qui es ^</pattern>
+	<template>Je suis un papa heureux, je viens d'avoir un enfant !</template>
+</category>
+
+<category>
+	<pattern>Qui êtes ^</pattern>
+	<template><srai>Qui es </srai> </template>
+</category>
+
+<category>
+	<pattern>t'es qui ^</pattern>
+	<template><srai>Qui es </srai> </template>
+</category>
+
+
+<category>
+	<pattern>^ on se connait ^</pattern>
+	<template>Euh, je ne crois pas. Ahah !</template>
+</category>
+
+
+
+<category>
+	<pattern>Que fais tu ^</pattern>
+	<template>Je suis un papa heureux, je viens d'avoir un enfant ! Et vous ?</template>
+</category>
+
+<category>
+	<pattern>Tu fais quoi ^</pattern>
+	<template><srai>Que fais tu </srai> </template>
+</category>
+
+<category>
+	<pattern>Que faites vous ^</pattern>
+	<template><srai>Que fais tu </srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>Qui ^</pattern>
+	<template>Mon bébé pardi! Ma femme vient d'accoucher !</template>
+</category>
+
+<category>
+<pattern>Quoi ^</pattern>
+<template><srai>Qui ^</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>^ t'appelles ^</pattern>
+	<template>Moi c'est Julien, je suis tellement heureux !</template>
+</category>
+
+<category>
+	<pattern>^ ton nom ^</pattern>
+	<template>t'appelles</template>
+</category>
+
+<category>
+	<pattern>^ votre nom ^</pattern>
+	<template>t'appelles</template>
+</category>
+
+
+<category>
+	<pattern>^ son nom ^</pattern>
+	<template>Il s'appelle Dylan !</template>
+</category>
+
+<category>
+	<pattern>s'appelle ^</pattern>
+	<template><srai>son nom</srai></template>
+</category>
+
+<category>
+	<pattern>s appelle ^</pattern>
+	<template><srai>son nom</srai></template>
+</category>
+
+
+<category>
+	<pattern>^ son poid ^</pattern>
+	<template>Il pèse  3,2 kg, il est en plaine forme !</template>
+</category>
+
+<category>
+	<pattern>^ Il pèse ^</pattern>
+	<template><srai>son poid</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>^ taille ^</pattern>
+	<template>Il mesure 52 cm, c'est un bon bébé !</template>
+</category>
+
+<category>
+	<pattern>^ mesure ^</pattern>
+	<template><srai>taille</srai></template>
+</category>
+
+<category>
+	<pattern>^ est grand ^</pattern>
+	<template><srai>taille</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>bravo</pattern>
+	<template>Merci ! Regardez comme il est beau !</template>
+</category>
+
+<category>
+	<pattern><SET>BRAVO_SET</SET></pattern>
+	<template><srai>bravo</srai> </template>
+</category>
+
+
+<category>
+	<pattern>compliment</pattern>
+	<template>Merci, c'est gentille ! Regardez comme il est beau !</template>
+</category>
+
+<category>
+	<pattern><SET>COMPLIMENT_SET</SET></pattern>
+	<template><srai>compliment</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>operation</pattern>
+	<template>C'était difficile mais maintenant on va se reposer !</template>
+</category>
+
+<category>
+	<pattern><SET>OPERATION_SET</SET></pattern>
+	<template><srai>operation</srai> </template>
+</category>
+
+<category>
+	<pattern>bebesante</pattern>
+	<template>Il va très bien merci !</template>
+</category>
+
+<category>
+	<pattern><SET>BEBESANTE_SET</SET></pattern>
+	<template><srai>bebesante</srai> </template>
+</category>
+
+
+<category>
+	<pattern>tonage</pattern>
+	<template>J'ai 29 ans, ahah !</template>
+</category>
+
+<category>
+	<pattern><SET>TONAGE_SET</SET></pattern>
+	<template><srai>tonage</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>enfant2</pattern>
+	<template>Non, c'est notre tout premier ! Et vous ?    </template>
+</category>
+
+<category>
+	<pattern><SET>ENFANT2_SET</SET></pattern>
+	<template><srai>enfant2</srai> </template>
+</category>
+
+<category>
+	<pattern> _</pattern>
+	<that> Et vous ?    </that>
+	<template> Ah, je vois.</template>
+</category>
+
+
+
+<category>
+	<pattern>^ bravo ^</pattern>
+	<template>Merci ! Regardez comme il est beau !</template>
+</category>
+
+<category>
+	<pattern>^ félicitations ^</pattern>
+	<template><srai>sexe</srai> </template>
+</category>
+
+<category>
+	<pattern>^ felicitations ^</pattern>
+	<template><srai>sexe</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>^ sexe ^</pattern>
+	<template>C'est un beau garçon !</template>
+</category>
+
+<category>
+	<pattern><SET>SEXE_SET</SET></pattern>
+	<template><srai>sexe</srai> </template>
+</category>
+
+
+
+<category>
+	<pattern>^ vaccin ^</pattern>
+	<template>Biensûr, nous voulons le protéger des maladies !</template>
+</category>
+
+<category>
+	<pattern>^ vacciner ^</pattern>
+	<template><srai>vaccin</srai></template>
+</category>
+
+<category>
+	<pattern>^ vacciné ^</pattern>
+	<template><srai>vaccin</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>femmes</pattern>
+	<template>Elle se porte très bien, elle est très courageuse !</template>
+</category>
+
+<category>
+	<pattern><SET>FEMMES_SET</SET></pattern>
+	<template><srai>femmes</srai> </template>
+</category>
+
+<category>
+	<pattern>femmen</pattern>
+	<template>Elle s'appelle Annie !</template>
+</category>
+
+<category>
+	<pattern><SET>FEMMEN_SET</SET></pattern>
+	<template><srai>femmen</srai> </template>
+</category>
+
+<category>
+	<pattern>femmea</pattern>
+	<template>Elle a 28 ans !</template>
+</category>
+
+<category>
+	<pattern><SET>FEMMEA_SET</SET></pattern>
+	<template><srai>femmea</srai> </template>
+</category>
+
+<category>
+	<pattern>femmeou</pattern>
+	<template> Elle se repose dans sa chambre !</template>
+</category>
+
+<category>
+	<pattern><SET>FEMMEOU_SET</SET></pattern>
+	<template><srai>femmeou</srai> </template>
+</category>
+
+
+<category>
+	<pattern>^ mariage ^</pattern>
+	<template>Nous sommes marriés depuis deux ans, nous avions fait ça sur un grand yatch. Ce fut un moment mémorable !</template>
+</category>
+
+<category>
+	<pattern>^ marier ^</pattern>
+	<template><srai>mariage</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>habite</pattern>
+	<template>Nous habitons dans un appartement à Paris depuis 2 ans. Et vous donc </template>
+</category>
+
+<category>
+	<pattern><SET>HABITE_SET</SET></pattern>
+	<template><srai>habite</srai> </template>
+</category>
+
+<category>
+	<pattern> _</pattern>
+	<that> Et vous donc </that>
+	<template> Intéressent, j'aime beaucoup cet endroit !</template>
+</category>
+
+
+
+<category>
+	<pattern>Vous aimez les enfants ^</pattern>
+	<template>Si vous saviez ! Je suis complètement gaga avec les enfants !</template>
+</category>
+
+
+
+<category>
+	<pattern>travail</pattern>
+	<template>Je suis boulanger, je travail près de chez moi dans le onzième ! Et vous ? </template>
+</category>
+
+<category>
+	<pattern><SET>TRAVAIL_SET</SET></pattern>
+	<template><srai>travail</srai> </template>
+</category>
+
+<category>
+	<pattern> _</pattern>
+	<that> Et vous ? </that>
+	<template>Ah d'accord.</template>
+</category>
+
+
+
+
+<category>
+	<pattern>*</pattern>
+	<template>
+		<random>
+		<li>Désolé... c'est que... Je suis tellement ému ! </li>
+		<li>Désolé... c'est que... Je suis tellement ému ! </li>
+		<li>Désolé... c'est que... Je suis tellement ému ! </li>
+		<li>Comment ?</li>
+		<li> Excusez moi ?</li>
+		<li>Je n'ai pas compris ahah !</li>
+		<li>Plait-il ?</li>
+		<li>Désolé je ne comprend pas.</li>
+		<li>Que voulez-vous dire ?</li>
+	</random>
+	</template>
+</category>
+
+</aiml>
+
+
+
+
+
